@@ -67,7 +67,7 @@ if(selected == 'Diabetes Prediction'):
         
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'The person is diabetic'
-          st.error(diab_diagnosis);
+          st.error(diab_diagnosis)
         else:
           diab_diagnosis = 'The person is not diabetic'
           st.success(diab_diagnosis)
