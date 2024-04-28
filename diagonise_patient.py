@@ -22,7 +22,7 @@ Parkinson_Disease_model = pickle.load(open('parkinsons_model.sav','rb'))
 
 #sidebar for navigation
 with st.sidebar:
-    selected = option_menu('Multiple Disease Prediction System',['Diabetes Prediction','Heart Disease Prediction','Parkinsons Prediction'],
+    selected = option_menu('Multiple Disease diagnosing System using ML by Anirban Malick',['Diabetes Prediction','Heart Disease Prediction','Parkinsons Prediction'],
                            icons = ['activity','heart','person'],default_index=0)
     
 #diabetes Prediction page
